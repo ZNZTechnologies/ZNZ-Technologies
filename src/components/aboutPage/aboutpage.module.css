@@ -332,7 +332,7 @@
   }
   .digitalBigHead {
     font-size: 54px;
-    background-color: #4a4a4a;
+    /* background-color: #4a4a4a; */
     max-width: 100%;
   }
   .companyValueContainer {
