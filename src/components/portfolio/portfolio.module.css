@@ -1,0 +1,147 @@
+.portfolioContainer {
+  padding: 45px 122px 150px 122px;
+  position: relative;
+  overflow: hidden !important;
+}
+.nvbar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.ptoy {
+  position: absolute;
+  top: 5%;
+  right: 0;
+}
+.pageTitle {
+  margin-top: 50px;
+}
+.portfolioHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-start;
+  margin-top: 100px;
+}
+.portfolioHeader > h1 {
+  color: #272727;
+  font-family: Helvetica;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 106px; /* 147.222% */
+  letter-spacing: 2.16px;
+}
+.portfolioHeader > h1 > span {
+  color: #ff5b46;
+}
+.portfolioHeader > p {
+  color: #4a4a4a;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+  letter-spacing: 0.54px;
+}
+.portfolioCards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 134px;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+/* portfolio card  */
+.cardImageContainer {
+  position: relative;
+  display: flex;
+  /* background-color: #272727; */
+}
+.cardImageContainer:hover {
+  cursor: pointer;
+  .cardbtn {
+    visibility: visible;
+    cursor: pointer;
+  }
+}
+.cardbtn {
+  visibility: hidden;
+}
+.cardImageContainer > button {
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%; /* 21.6px */
+  letter-spacing: 0.36px;
+  display: inline-flex;
+  padding: 5px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+  background: #ff5b46;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  border: none;
+}
+.cardTypo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cardTypo > h3 {
+  color: #4a4a4a;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 180%; /* 32.4px */
+  letter-spacing: 0.54px;
+}
+.cardTypo > span {
+  color: #b2adad;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%; /* 25.2px */
+  letter-spacing: 0.42px;
+}
+
+@media (max-width: 1080px) {
+  .portfolioHeader > h1 {
+    font-size: 44px;
+  }
+  .ptoy {
+    width: 25%;
+  }
+}
+@media (max-width: 740px) {
+  .portfolioContainer {
+    padding: 45px 24px;
+  }
+  .portfolioHeader > h1 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .ptoy {
+    width: 25%;
+  }
+}
+@media (max-width: 450px) {
+  .portfolioContainer {
+    padding: 45px 24px;
+  }
+  .portfolioHeader > h1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .ptoy {
+    visibility: hidden;
+  }
+}

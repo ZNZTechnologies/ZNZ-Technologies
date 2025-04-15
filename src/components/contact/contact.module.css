@@ -1,0 +1,217 @@
+.contactPage {
+  background: #f9f9f9;
+}
+.logo {
+  padding: 45px 122px;
+}
+.pageTitle {
+  padding: 0px 122px;
+}
+.contactTypo {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 40px;
+  padding: 120px 122px;
+}
+.contactTypo > h1 {
+  color: #272727;
+  font-family: Helvetica;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 106px; /* 147.222% */
+  letter-spacing: 2.16px;
+}
+.contactTypo > p {
+  color: #4a4a4a;
+  font-family: Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%; /* 43.2px */
+  letter-spacing: 0.72px;
+}
+
+/* form  */
+.contactForm {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 150px;
+}
+
+.contactForm > form {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  gap: 16px;
+}
+.inputStyle {
+  display: flex;
+  width: 404px;
+  padding: 22px 15px;
+  align-items: center;
+  gap: 16px;
+  border-radius: 8px;
+  border: 1px solid #f9f9f9;
+  background: #fff;
+}
+.inputStyle > input {
+  border: none;
+  outline: none;
+  /* color: #d0d0d0; */
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  width: 100%;
+}
+.inputStyle{
+  resize: none !important;
+  border: none;
+  outline: none;
+  /* color: #d0d0d0; */
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  width: 100%;
+  max-width: 100%;
+  /* background-color: #272727; */
+}
+.input__container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.textarea__container {
+  display: flex;
+  /* background-color: black; */
+  align-items: start;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+/* services section  */
+.servicesArea {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.servicesArea > h3 {
+  color: #272727;
+  font-family: Arial;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.72px;
+}
+.servicesArea > p {
+  color: #c1c1c1;
+  font-family: Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%; /* 28.8px */
+  letter-spacing: 0.48px;
+  max-width: 804px;
+}
+.chckBox > input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.chckBox {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  color: #272727;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%; /* 32.4px */
+  letter-spacing: 0.54px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.checkmark {
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 50%;
+  border: 1px solid #d0d0d0;
+}
+.chckBox input:checked ~ .checkmark {
+  background-color: #ff5b46;
+  border-color: #ff5b46;
+  color: #ff5b46;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.chckmark input:checked ~ .checkmark:after {
+  display: block;
+}
+.contactForm > form > button {
+  display: flex;
+  /* width: 848px; */
+  padding: 22px 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 8px;
+  background: #ff5b46;
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.54px;
+  border: none;
+}
+
+/* media queries */
+@media (max-width: 580px) {
+  .contactTypo {
+    padding: 120px 24px;
+  }
+  .contactTypo > h1 {
+    font-size: 32px;
+  }
+  .contactTypo > p {
+    font-size: 18px;
+  }
+  .inputStyle {
+    width: 100%;
+  }
+  .contactForm > form {
+    padding: 24px;
+  }
+}

@@ -1,0 +1,228 @@
+.ourWork__container {
+  padding: 150px 122px 0px 122px;
+}
+.ourWork__header {
+  margin-top: 150px;
+  color: #272727;
+  font-family: Helvetica;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 106px; /* 124.706% */
+  letter-spacing: 2.55px;
+}
+.work__desc {
+  display: flex;
+  align-items: start;
+  gap: 100px;
+  margin-top: 101px;
+  flex-wrap: wrap;
+}
+.work__desc > p > span {
+  font-weight: 700;
+}
+.work__desc > p {
+  max-width: 404px;
+  color: #4a4a4a;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+  letter-spacing: 0.54px;
+}
+.ourWork__header > button {
+  display: flex;
+  padding: 10px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+  background: #ff5b46;
+  color: #fff;
+  font-family: Arial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%; /* 25.2px */
+  letter-spacing: 0.42px;
+  border: none;
+  margin-top: 40px;
+}
+
+/* project card styles  */
+.projectCard__container {
+  display: flex;
+  align-items: center;
+  /* gap: 458px; */
+  /* margin: 150px 0px; */
+  flex-wrap: wrap;
+}
+.cardHeadings {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 30px;
+  padding: 30px;
+}
+.cardHeadings > h1 {
+  color: #272727;
+  font-family: Helvetica;
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px; /* 185.965% */
+  letter-spacing: 1.71px;
+}
+.cardHeadings > p {
+  color: #4a4a4a;
+  text-align: right;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%; /* 32.4px */
+  letter-spacing: 0.54px;
+  max-width: 472px;
+}
+.cardHeadings > p > span {
+  color: #ff5b46;
+  text-decoration-line: underline;
+}
+.cardHeadings > button {
+  display: flex;
+  padding: 10px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+  border: 1px solid #a4a4a4;
+  color: #8a8a8a;
+  font-family: Arial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%; /* 25.2px */
+  letter-spacing: 0.42px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.cardImage > img {
+  background: lightgray 50% / cover no-repeat, #d9d9d9;
+  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.15);
+  width: 100%;
+}
+
+@media (max-width: 1920px) {
+  .projectCard__container {
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .cardImage {
+    width: 50%;
+    max-width: 500px;
+    min-width: 360px;
+  }
+  .cardHeadings {
+    width: 50%;
+  }
+  @media (max-width: 1275px) {
+    .projectCard__container {
+      flex-direction: row-reverse;
+    }
+    .cardHeadings {
+      width: 100%;
+    }
+    .cardHeadings > p {
+      max-width: 70%;
+    }
+  }
+}
+@media (max-width: 780px) {
+  .ourWork__container {
+    padding: 150px 24px 0px 24px;
+  }
+  .work__desc {
+    gap: 24px;
+    margin-top: 24px;
+  }
+  .work__desc > p {
+    max-width: 100%;
+  }
+  .ourWork__container {
+    padding: 150px 24px 0px 24px;
+  }
+  .projectCard__container {
+    width: 100%;
+    justify-content: center;
+    gap: 40px;
+  }
+  .cardHeadings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: 90%;
+    max-width: 500px;
+    padding: 0px;
+  }
+  .cardHeadings > p {
+    font-size: 16px;
+    text-align: center;
+    width: 100% !important;
+  }
+  .cardImage > img {
+    width: 350px;
+    height: 300px;
+  }
+}
+@media (max-width: 600px) {
+  .ourWork__header {
+    margin-top: 40px;
+  }
+  .cardHeadings > h1 {
+    font-size: 24px;
+    line-height: 44px;
+    text-align: center;
+  }
+  .cardHeadings > p {
+    font-size: 16px;
+    text-align: center;
+    width: 100% !important;
+  }
+  .cardHeadings > h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+}
+@media (max-width: 380px) {
+  .cardImage > img {
+    width: 320px;
+  }
+  .ourWork__container {
+    padding: 150px 24px 0px 24px;
+  }
+  .work__desc {
+    gap: 24px;
+    margin-top: 24;
+  }
+  .cardHeadings {
+    padding: 0px;
+    margin: 0px;
+  }
+  .cardHeadings > p {
+    text-align: center;
+    /* width: 100% !important; */
+  }
+  .cardHeadings > h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .cardImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

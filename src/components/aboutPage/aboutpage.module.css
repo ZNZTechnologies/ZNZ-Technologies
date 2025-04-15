@@ -1,0 +1,447 @@
+.logoAboutUs {
+  padding: 45px 122px;
+}
+
+.about__header {
+  padding: 0px 122px;
+}
+.about__innerheader {
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+}
+.imgae {
+  display: flex;
+  align-items: end;
+  }
+.imageMain{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.imgae > img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  max-width: 550px;
+}
+.about__typo {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 40px;
+  padding: 40px 0px;
+}
+.getintouch {
+  color: #818181;
+  text-align: center;
+  font-family: Averia Serif Libre;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%; /* 25.2px */
+}
+.about__typo > h1 {
+  color: #272727;
+  font-family: Helvetica;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 106px; /* 147.222% */
+  letter-spacing: 2.16px;
+}
+.about__typo > h1 > span {
+  color: #ff5b46;
+}
+.about__typo > div {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+.about__typo > div > p {
+  color: #4a4a4a;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%; /* 32.4px */
+  letter-spacing: 0.54px;
+  max-width: 404px;
+}
+.about__typo > button {
+  color: #8a8a8a;
+  font-family: Arial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%; /* 25.2px */
+  letter-spacing: 0.42px;
+  display: flex;
+  padding: 10px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+  border: 1px solid #a4a4a4;
+  border: none;
+  cursor: pointer;
+  /* background-color: transparent; */
+}
+
+/* second section  */
+.digitalExperience {
+  display: flex;
+  height: 100%;
+  padding: 90px 0px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: #e06757;
+}
+.digitalTypo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: red; */
+  padding-right: 40px;
+  width: 60px;
+}
+.digitalTypo > span {
+  color: #eee;
+  font-family: Arial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  /* line-height: 180%; */
+  letter-spacing: 0.42px;
+  width: 400px;
+  /* background-color: #090b0b; */
+  transform: rotate(-90deg);
+}
+.digitalBigHead {
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3.6px;
+  max-width: 80%;
+}
+
+/* ceo section  */
+.sliderBack {
+  background-color: #ff5b46;
+}
+.ceoImageArea {
+  position: relative;
+  background-color: #090b0b;
+  /* width: 20px; */
+  overflow: hidden;
+  max-height: 650px;
+  max-width: 800px;
+  background: linear-gradient(91deg, #090b0b 0.75%, rgba(9, 11, 11, 0) 100%);
+}
+.ceoImageArea > img {
+  background-size: cover;
+  background-color: #090b0b;
+}
+.ceoImageArea > div > span {
+  position: absolute;
+  bottom: 10%;
+  width: 80%;
+  right: 5%;
+  overflow: hidden;
+  border-radius: 30px;
+}
+.ceo__container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: space-between;
+  background-color: #090b0b;
+}
+.ceo__typo {
+  /* padding-left: 122px; */
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 40px;
+}
+.ceo__typo > h1 {
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.16px;
+}
+.ceo__typo > h1 > span {
+  color: #ff5b46;
+}
+.ceo__typo > p {
+  color: #4a4a4a;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%; /* 32.4px */
+  letter-spacing: 0.54px;
+  max-width: 404px;
+}
+.ceo__typo > button {
+  display: flex;
+  padding: 10px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+  background: #ff5b46;
+  color: #fff;
+  font-family: Arial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%; /* 25.2px */
+  letter-spacing: 0.42px;
+  border: none;
+}
+
+/* company values  */
+.companyValueContainer {
+  padding: 150px 122px;
+}
+.singleValue {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 40px;
+  padding-top: 100px;
+}
+.singleValue > h1 {
+  color: #272727;
+  font-family: Arial;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.72px;
+}
+.singleValue > h1 > span {
+  color: #ff5b46;
+}
+.singleValue > p {
+  color: #4a4a4a;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%; /* 32.4px */
+  letter-spacing: 0.54px;
+  max-width: 248px;
+}
+.singleValue > button {
+  border-radius: 30px;
+  border: 1px solid #a4a4a4;
+  display: flex;
+  padding: 10px 24px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  border: none;
+  color: #8a8a8a;
+  font-family: Arial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%; /* 25.2px */
+  letter-spacing: 0.42px;
+  cursor: pointer;
+}
+.companyValues {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+/* media quries  */
+@media (max-width: 1840px) {
+  .ceoImageArea {
+    position: relative;
+  }
+  .ceoImageArea > img {
+    background-size: cover;
+    width: 100%;
+  }
+  .ceoImageArea > div > span {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    left: 0%;
+    overflow: hidden;
+    border-radius: 25px;
+  }
+  .ceo__container {
+    height: 100%;
+    justify-content: center;
+    flex-direction: column-reverse;
+    padding-bottom: 122px;
+    gap: 40px;
+  }
+  .ceo__typo {
+    /* padding-left: 122px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+  }
+  .ceo__typo > h1 {
+    font-size: 72px;
+  }
+  .ceo__typo > h1 > span {
+    color: #ff5b46;
+  }
+  /* .ceo__typo > p {
+    line-height: 180%; 
+    max-width: 100%;
+  } */
+}
+
+@media (max-width: 1250px) {
+  .digitalTypo  {
+    padding-right: 0px;
+    width: max-content;
+    justify-content: flex-start;
+  }
+  .digitalTypo > span {
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: max-content;
+    max-width: 100%;
+    transform: rotate(0deg);
+  }
+  .digitalBigHead {
+    font-size: 54px;
+    background-color: #4a4a4a;
+    max-width: 100%;
+  }
+  .companyValueContainer {
+    padding: 90px 24px;
+  }
+  .ceoImageArea > div {
+    visibility: hidden;
+  }
+  .ceo__typo {
+    padding-left: 0px;
+  }
+  .digitalExperience {
+    gap: 25px;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    /* gap: 2.5px; */
+    padding: 90px 122px;
+  }
+}
+@media (max-width: 980px) {
+  .imgae > img {
+    width: 540px;
+  }
+  .about__typo > h1 {
+    font-size: 44px;
+  }
+  .ceo__typo > h1 {
+    font-size: 44px;
+  }
+  .ceo__typo > p {
+    font-size: 18px;
+  }
+  .companyValues {
+    gap: 40 px;
+  }
+}
+@media (max-width: 680px) {
+  .imgae > img {
+    width: 440px;
+  }
+  .digitalBigHead {
+    font-size: 44px;
+    max-width: 100%;
+    /* background-color: #090b0b; */
+    padding: 30px 24px;
+  }
+  .companyValueContainer {
+    padding: 122px 24px;
+  }
+  .singleValue > p {
+    max-width: 100%;
+  }
+  .about__typo {
+    gap: 0px;
+    margin: 0px;
+  }
+  /* .about__typo > h1 > span {
+    text-align: center;
+  }
+  .about__typo > div > p {
+    text-align: center;
+  } */
+  .singleValue {
+    padding-top: 40px;
+  }
+  .digitalExperience {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 122px 24px;
+    height: 100%;
+  }
+}
+@media (max-width: 580px) {
+  .logoAboutUs {
+    padding: 45px 24px;
+  }
+  .imgae > img {
+    display: none;
+  }
+  .about__header {
+    padding: 0px 24px;
+  }
+  .ceo__typo {
+    padding: 0px 24px;
+  }
+  .ceo__typo > h1 {
+    font-size: 34px;
+  }
+  .ceo__typo > p {
+    font-size: 12px;
+  }
+  .ceo__typo > button {
+    font-size: 12px;
+    margin-bottom: 25px;
+  }
+  .logoAboutUs > img {
+    height: 54px;
+    width: 120px;
+  }
+}
+@media (max-width: 480px) {
+  .digitalBigHead {
+    font-size: 24px;
+  }
+  .about__typo > h1 {
+    font-size: 24px;
+    line-height: 44px;
+    margin-top: 40px;
+  }
+}
