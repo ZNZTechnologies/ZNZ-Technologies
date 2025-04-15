@@ -8,7 +8,7 @@ import Aos from "aos";
 const OurWork = () => {
   useEffect(() => {
     console.log(window.innerWidth);
-    Aos.init({ duration: 2000 });
+    Aos.init({ duration: 1000 });
   }, []);
   return (
     <div className={styles.ourWork__container}>

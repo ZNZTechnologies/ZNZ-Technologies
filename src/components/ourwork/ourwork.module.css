@@ -1,8 +1,8 @@
 .ourWork__container {
-  padding: 150px 122px 0px 122px;
+  padding: 100px 122px 0px 122px;
 }
 .ourWork__header {
-  margin-top: 150px;
+  margin-top: 80px;
   color: #272727;
   font-family: Helvetica;
   font-size: 32px;
@@ -142,7 +142,7 @@
 }
 @media (max-width: 780px) {
   .ourWork__container {
-    padding: 150px 24px 0px 24px;
+    padding: 100px 24px 0px 24px;
   }
   .work__desc {
     gap: 24px;
@@ -152,7 +152,7 @@
     max-width: 100%;
   }
   .ourWork__container {
-    padding: 150px 24px 0px 24px;
+    padding: 100px 24px 0px 24px;
   }
   .projectCard__container {
     width: 100%;
@@ -202,7 +202,7 @@
     width: 320px;
   }
   .ourWork__container {
-    padding: 150px 24px 0px 24px;
+    padding: 100px 24px 0px 24px;
   }
   .work__desc {
     gap: 24px;
