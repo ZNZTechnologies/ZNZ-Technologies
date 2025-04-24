@@ -4,6 +4,7 @@
 
 .about__header {
   padding: 0px 122px;
+  /* background-color: aqua; */
 }
 .about__innerheader {
   display: flex;
@@ -127,6 +128,7 @@
   font-family: Helvetica;
   font-size: 90px;
   font-style: normal;
+  text-wrap: ywrap;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 3.6px;
@@ -215,7 +217,9 @@
 
 /* company values  */
 .companyValueContainer {
+  max-width: 90%;
   padding: 150px 122px;
+  
 }
 .singleValue {
   display: flex;
@@ -320,11 +324,15 @@
 @media (max-width: 1250px) {
   .digitalTypo  {
     padding-right: 0px;
-    width: max-content;
-    justify-content: flex-start;
+    width: 90%;
+    /* flex-direction: row-reverse; */
   }
+  .about__header {
+    padding: 90px 90px;
+  }
+
   .digitalTypo > span {
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
     width: max-content;
     max-width: 100%;
@@ -333,10 +341,12 @@
   .digitalBigHead {
     font-size: 54px;
     /* background-color: #4a4a4a; */
+    text-wrap: wrap;
     max-width: 100%;
+    max-width: 90%;
   }
   .companyValueContainer {
-    padding: 90px 24px;
+    padding: 122px 100px;
   }
   .ceoImageArea > div {
     visibility: hidden;
@@ -350,12 +360,21 @@
     align-items: end;
     justify-content: start;
     /* gap: 2.5px; */
-    padding: 90px 122px;
+    padding: 60px 90px;
   }
 }
 @media (max-width: 980px) {
   .imgae > img {
     width: 540px;
+  }
+  .about__header {
+    padding: 90px 60px;
+  }
+  .digitalExperience {
+    padding: 90px 24px;
+  }
+  .companyValueContainer {
+    padding: 90px 90px;
   }
   .about__typo > h1 {
     font-size: 44px;
@@ -374,15 +393,23 @@
   .imgae > img {
     width: 440px;
   }
+  .about__header {
+    padding: 40px 24px;
+  }
+  .companyValueContainer {
+    padding: 90px 24px;
+  }
+  .digitalExperience {
+    padding: 90px 24px;
+  }
   .digitalBigHead {
     font-size: 44px;
     max-width: 100%;
+    text-wrap: wrap;
     /* background-color: #090b0b; */
-    padding: 30px 24px;
+    /* padding: 30px 24px; */
   }
-  .companyValueContainer {
-    padding: 122px 24px;
-  }
+
   .singleValue > p {
     max-width: 100%;
   }
@@ -403,13 +430,19 @@
     display: flex;
     align-items: center;
     gap: 40px;
-    padding: 122px 24px;
-    height: 100%;
+    /* padding: 122px 24px; */
+    /* height: 100%; */
   }
 }
 @media (max-width: 580px) {
   .logoAboutUs {
     padding: 45px 24px;
+  }
+  .companyValueContainer {
+    padding: 40px 24px;
+  }
+  .digitalExperience {
+    padding: 40px 24px;
   }
   .imgae > img {
     display: none;
