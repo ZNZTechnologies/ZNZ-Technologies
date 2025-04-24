@@ -189,13 +189,31 @@ function TeamMembers() {
               <div className="card-image-container">
                 <div className="blue-overlay"></div>
                 <img
-                  src="assets/photos/zeeshan.jpeg"
+                  src="assets/photos/taimoor.jpg"
                   alt="..."
                   className="card-image"
                 />
                 <div className="person-info">
-                  <div className="person-name">Zeeshan</div>
-                  <div className="designation">Designer</div>{" "}
+                  <div className="person-name">Taimoor Akhtar</div>
+                  <div className="designation">Graphic Designer</div>{" "}
+                </div>
+              </div>
+            </div>
+            <div
+              className={`card ${
+                activeSection === 3 ? "show animate" : "hide"
+              }`}
+            >
+              <div className="card-image-container">
+                <div className="blue-overlay"></div>
+                <img
+                  src="assets/photos/Benish.jpg"
+                  alt="..."
+                  className="card-image"
+                />
+                <div className="person-info">
+                  <div className="person-name">Benish Mehboob Ali</div>
+                  <div className="designation">Intern Grapic Desiner</div>{" "}
                 </div>
               </div>
             </div>
@@ -247,13 +265,13 @@ function TeamMembers() {
               <div className="card-image-container">
                 <div className="blue-overlay"></div>
                 <img
-                  src="https://mdbootstrap.com/img/new/standard/nature/182.webp"
+                  src="assets/photos/taiba.jpg"
                   alt="..."
                   className="card-image"
                 />
                 <div className="person-info">
-                  <div className="person-name">John Doe</div>
-                  <div className="designation">Developer</div>{" "}
+                  <div className="person-name">Taiba Akhtar</div>
+                  <div className="designation">PR Manager</div>{" "}
                 </div>
               </div>
             </div>
@@ -264,10 +282,14 @@ function TeamMembers() {
             >
               <div className="card-image-container">
                 <div className="blue-overlay"></div>
-                <img src="/images/imR4.jpg" alt="..." className="card-image" />
+                <img
+                  src="assets/photos/umer-khan.jpg"
+                  alt="..."
+                  className="card-image"
+                />
                 <div className="person-info">
-                  <div className="person-name">John Doe</div>
-                  <div className="designation">Developer</div>{" "}
+                  <div className="person-name">Umer Khan</div>
+                  <div className="designation">DOP</div>{" "}
                 </div>
               </div>
             </div>
