@@ -77,13 +77,13 @@ function TeamMembers() {
               <div className="card-image-container">
                 <div className="blue-overlay"></div>
                 <img
-                  src="assets/photos/abrar.jpeg"
+                  src="assets/photos/zunaira.jpg"
                   alt="..."
                   className="card-image"
                 />
                 <div className="person-info">
-                  <div className="person-name">Abrar Qayyum</div>
-                  <div className="designation">HR</div>{" "}
+                  <div className="person-name">Zunaira Murtaza</div>
+                  <div className="designation">HR Manager</div>{" "}
                 </div>
               </div>
             </div>
