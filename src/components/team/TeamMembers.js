@@ -151,12 +151,12 @@ function TeamMembers() {
               <div className="card-image-container">
                 <div className="blue-overlay"></div>
                 <img
-                  src="assets/photos/muaz.jpeg"
+                  src="assets/photos/ahmed-nadeem.jpg"
                   alt="..."
                   className="card-image"
                 />
                 <div className="person-info">
-                  <div className="person-name">Mauz Zia</div>
+                  <div className="person-name">Ahmad Nadeem</div>
                   <div className="designation">Backend Developer</div>{" "}
                 </div>
               </div>
@@ -227,13 +227,15 @@ function TeamMembers() {
               <div className="card-image-container">
                 <div className="blue-overlay"></div>
                 <img
-                  src="https://mdbootstrap.com/img/new/standard/nature/182.webp"
+                  src="assets/photos/ali-hasan.jpg"
                   alt="..."
                   className="card-image"
                 />
                 <div className="person-info">
-                  <div className="person-name">John Doe</div>
-                  <div className="designation">Developer</div>{" "}
+                  <div className="person-name">Ali Hasan</div>
+                  <div className="designation">
+                    SM Manger | Content Writer
+                  </div>{" "}
                 </div>
               </div>
             </div>
