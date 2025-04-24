@@ -289,7 +289,25 @@ function TeamMembers() {
                 />
                 <div className="person-info">
                   <div className="person-name">Umer Khan</div>
-                  <div className="designation">DOP</div>{" "}
+                  <div className="designation">D O P </div>{" "}
+                </div>
+              </div>
+            </div>
+            <div
+              className={`card ${
+                activeSection === 4 ? "show animate" : "hide"
+              }`}
+            >
+              <div className="card-image-container">
+                <div className="blue-overlay"></div>
+                <img
+                  src="assets/photos/aleena.jpg"
+                  alt="..."
+                  className="card-image"
+                />
+                <div className="person-info">
+                  <div className="person-name">Aleena Muzafar</div>
+                  <div className="designation">Host</div>{" "}
                 </div>
               </div>
             </div>
