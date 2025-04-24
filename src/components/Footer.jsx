@@ -19,12 +19,14 @@ const Footer = () => {
                   Znz <span>Technologies</span>
                 </h3>
                 <p>
-                  Address:Eden hieghts, Jail Road, Lahore,
+                  Address:396 D-Block, Johar Town, Lahore,
                   <br /> Pakistan.
                 </p>
               </div>
               <div></div>
-              <a href="mailto:info@znztechnologies.com">info@znztechnologies.com</a>
+              <a href="mailto:info@znztechnologies.com">
+                info@znztechnologies.com
+              </a>
             </div>
           </div>
           <div className="footer__rightSide">
